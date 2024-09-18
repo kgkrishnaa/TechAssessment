@@ -1,0 +1,12 @@
+OrderId,CustomerId,OrderRegion,OrderDate,OrderAmount,ProductID,Quantity
+101    ,1        ,Yorkshire  ,2023-07-01,150.0      ,1001.0,1.0
+102    ,2        ,Tyne & Wear,2023-07-03,           ,1002.0,2.0
+103    ,1        ,Yorkshire  ,INVALID_DATE,200.5    ,1001.0, 
+104    ,3        ,London     ,2023-07-05,350.0     ,, 4.0 
+105    ,2        ,Tyne & Wear,2023-07-03,One Hundred Pounds,1003,1.0 
+106    ,1        ,Yorkshire  ,2023-07-01,150.0      , 1001.0,1.0
+107    ,2        ,Tyne & Wear,2023-07-03,One Hundred Pounds,1003.0,1.0
+108    ,1        ,Yorkshire  ,INVALID_DATE, 50.0    ,1006.0,Three
+109    ,3        ,London     ,2023-07-05,970.0     ,,3.0 
+110    ,2        ,Tyne & Wear,2023-07-23,         ,1010.0,1.0
+110    ,2        ,Tyne & Wear,2023-07-23,         ,1010.0,1.0
